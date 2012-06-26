@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/java/org/codehaus/mojo/fitnesse/log
+END
+MultipleConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/java/org/codehaus/mojo/fitnesse/log/MultipleConsumerTest.java
+END
+FileConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/java/org/codehaus/mojo/fitnesse/log/FileConsumerTest.java
+END

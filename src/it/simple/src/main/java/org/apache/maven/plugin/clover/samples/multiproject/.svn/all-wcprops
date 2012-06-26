@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/it/simple/src/main/java/org/apache/maven/plugin/clover/samples/multiproject
+END
+Simple1Fixture.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/it/simple/src/main/java/org/apache/maven/plugin/clover/samples/multiproject/Simple1Fixture.java
+END
+Simple1.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/it/simple/src/main/java/org/apache/maven/plugin/clover/samples/multiproject/Simple1.java
+END
+Simple2.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/it/simple/src/main/java/org/apache/maven/plugin/clover/samples/multiproject/Simple2.java
+END

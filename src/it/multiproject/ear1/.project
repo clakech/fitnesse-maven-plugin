@@ -1,0 +1,9 @@
+<projectDescription>
+  <name>fitnesse-maven-plugin-sample-multiproject-ear1</name>
+  <comment>Maven FitNesse Plugin Multiproject Sample - EAR 1</comment>
+  <projects>
+    <project>fitnesse-maven-plugin-sample-multiproject-war1</project>
+  </projects>
+  <buildSpec/>
+  <natures/>
+</projectDescription>

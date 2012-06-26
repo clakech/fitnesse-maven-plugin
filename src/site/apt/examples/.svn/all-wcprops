@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/apt/examples
+END
+multiproject.apt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/apt/examples/multiproject.apt
+END
+minimalist.apt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/apt/examples/minimalist.apt
+END
+simple.apt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/apt/examples/simple.apt
+END

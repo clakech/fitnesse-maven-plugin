@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse
+END
+ClassPathSubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/ClassPathSubstitution.java
+END
+FitnesseRunnerMojo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FitnesseRunnerMojo.java
+END
+Fitnesse.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/Fitnesse.java
+END
+FitnesseReportMojo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FitnesseReportMojo.java
+END
+FitnesseAbstractMojo.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FitnesseAbstractMojo.java
+END
+FitnesseRemoteRunnerMojo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FitnesseRemoteRunnerMojo.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FileUtil.java
+END
+FitnessePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/java/org/codehaus/mojo/fitnesse/FitnessePage.java
+END

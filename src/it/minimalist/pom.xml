@@ -1,0 +1,64 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>fitnesse-maven-plugin-sample-minimalist</artifactId>
+
+  <packaging>pom</packaging>
+  <name>Maven FitNesse Plugin Minimalist</name>
+  <description>Maven FitNesse Plugin Minimalist</description>
+  <version>1.0-SNAPSHOT</version>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>fitnesse-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>fitnesse-maven-plugin</artifactId>
+        <version>1.0-beta-2-SNAPSHOT</version>
+        <configuration>
+          <!-- Fail and Output configuration -->
+          <debug>false</debug>
+          <failOnError>true</failOnError>
+          <displayOutput>true</displayOutput>
+          <!-- Fitnesse servers list -->
+          <fitnesses>
+            <fitnesse>
+                <hostName>localhost</hostName>
+                <port>80</port>
+                <pageName>FitnesseIntegrationTest.SuiteCoverage4</pageName>
+            </fitnesse>            
+          </fitnesses>
+          
+          <!-- Local path substitution mecanism -->
+          <classPathSubstitutions>
+            <classPathSubstitution>
+                <search>/etc/udd/m2_repository</search>
+                <replaceWith>${settings.localRepository}</replaceWith>
+            </classPathSubstitution>
+            <classPathSubstitution>
+                <search>/</search>
+                <replaceWith>${myFolderSeparator}</replaceWith>
+            </classPathSubstitution>
+          </classPathSubstitutions>
+
+        </configuration>
+        <executions>
+          <execution>
+            <id>site</id>
+            <phase>pre-site</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

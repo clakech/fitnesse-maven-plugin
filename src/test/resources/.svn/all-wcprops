@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources
+END
+simplelog.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/simplelog.properties
+END
+commons-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/commons-logging.properties
+END

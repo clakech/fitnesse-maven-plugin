@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/resources/fitnesse_resources/images/executionStatus
+END
+output.gif
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/resources/fitnesse_resources/images/executionStatus/output.gif
+END
+error.gif
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/resources/fitnesse_resources/images/executionStatus/error.gif
+END
+ok.gif
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/main/resources/fitnesse_resources/images/executionStatus/ok.gif
+END

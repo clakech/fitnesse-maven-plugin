@@ -1,0 +1,6 @@
+!|org.apache.maven.plugin.clover.samples.multiproject.Simple1Fixture||
+|value|check?|
+|-1|false|
+|0|false|
+|1|true|
+|2|true|

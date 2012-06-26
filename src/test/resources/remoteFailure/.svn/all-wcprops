@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure
+END
+TestException.htm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/TestException.htm
+END
+SuiteInfraOk.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/SuiteInfraOk.html
+END
+SuiteOk.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/SuiteOk.html
+END
+SuiteFail.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/SuiteFail.html
+END
+SuiteInfraFail.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/SuiteInfraFail.html
+END
+TestInvalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/TestInvalid.html
+END
+SuiteException.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/SuiteException.html
+END
+TestInvalid2.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/TestInvalid2.html
+END
+TestOk.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/TestOk.html
+END
+TestFail.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remoteFailure/TestFail.html
+END

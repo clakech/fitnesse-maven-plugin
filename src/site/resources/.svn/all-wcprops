@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/resources
+END
+header.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/resources/header.txt
+END
+checkstyle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/site/resources/checkstyle.xml
+END

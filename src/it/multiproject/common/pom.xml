@@ -1,0 +1,57 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>fitnesse-maven-plugin-sample-multiproject-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>Maven FitNesse Plugin Multiproject Sample (Parent)</name>
+  <description>Maven FitNesse Plugin Multiproject Sample (Parent)</description>
+  <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clover-plugin</artifactId>
+        <configuration>
+          <generateHistorical>true</generateHistorical>
+          <licenseLocation>D:/maven/repository/clover/licenses/clover.license</licenseLocation>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+  <build>
+    <plugins>
+      <plugin>
+        <inherited>true</inherited>
+        <artifactId>maven-clover-plugin</artifactId>
+        <configuration>
+          <licenseLocation>D:/maven/repository/clover/licenses/clover.license</licenseLocation>
+        </configuration>
+        <executions>
+          <!--execution>
+            <id>main</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>instrument</goal>
+              <goal>aggregate</goal>
+            </goals>
+          </execution-->
+          <execution>
+            <id>site</id>
+            <phase>pre-site</phase>
+            <goals>
+              <goal>instrument</goal>
+              <goal>aggregate</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

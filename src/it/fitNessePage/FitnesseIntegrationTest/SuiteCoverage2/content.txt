@@ -1,0 +1,18 @@
+Couverture de test...
+
+!define repo {D:\maven\m2_repository}
+
+!define repofitnesse {D:\data\fitnesse}
+
+!path ${repo}\org\fitnesse\fitlibrary\20050731\fitlibrary-20050731.jar  
+!path ${repo}\org\fitnesse\fitnesse\20050731\fitnesse-20050731.jar
+
+!path ${repo}\com\octo\infra\secu-fitnesse\1.0-SNAPSHOT\secu-fitnesse-1.0-SNAPSHOT.jar
+!path ${repo}\commons-httpclient\commons-httpclient\3.1-beta1\commons-httpclient-3.1-beta1.jar
+!path ${repo}\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+!path ${repo}\commons-logging\commons-logging\1.0.3\commons-logging-1.0.3.jar
+!path ${repo}\org\apache\maven\plugins\fitnesse-maven-plugin-sample-multiproject-jar1\1.0-SNAPSHOT\fitnesse-maven-plugin-sample-multiproject-jar1-1.0-SNAPSHOT-clover.jar
+!path ${repo}\org\apache\maven\plugins\fitnesse-maven-plugin-sample-multiproject-jar2\1.0-SNAPSHOT\fitnesse-maven-plugin-sample-multiproject-jar2-1.0-SNAPSHOT-clover.jar
+!path ${repo}\com\cenqua\clover\clover\1.3.13\clover-1.3.13.jar
+
+^TestSimpleClass1

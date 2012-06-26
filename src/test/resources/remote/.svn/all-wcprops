@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote
+END
+TestBrut.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/TestBrut.html
+END
+TestResult.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/TestResult.html
+END
+fitnesse_base.css
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/fitnesse_base.css
+END
+fitnesse_print.css
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/fitnesse_print.css
+END
+RemoteCallBrut_output.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/RemoteCallBrut_output.html
+END
+RemoteCallResult_output.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/RemoteCallResult_output.html
+END
+SuiteBrut.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/SuiteBrut.html
+END
+SuiteResult.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/SuiteResult.html
+END
+fitnesse.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mojo/!svn/ver/15258/tags/fitnesse-maven-plugin-1.0/src/test/resources/remote/fitnesse.js
+END

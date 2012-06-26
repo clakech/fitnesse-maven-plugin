@@ -1,0 +1,84 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>fitnesse-maven-plugin-sample-simple-jar</artifactId>
+  <packaging>jar</packaging>
+  <name>Maven FitNesse Plugin Simple Sample - JAR</name>
+  <description>Maven FitNesse Plugin Simple Sample - JAR</description>
+  <version>1.0-SNAPSHOT</version>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>fitnesse-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>fitnesse-maven-plugin</artifactId>
+        <version>1.0-beta-2-SNAPSHOT</version>
+        <configuration>
+          <failOnError>true</failOnError>
+          <classPathProvider>fitnesse</classPathProvider>
+          <fitnesses>
+            <fitnesse>
+                <hostName>localhost</hostName>
+                <port>80</port>
+                <pageName>FitnesseIntegrationTest.SuiteCoverage</pageName>
+                <!--login>test</login>
+                <password>test1</password-->
+               <type>Suite</type>
+            </fitnesse>            
+            <fitnesse>
+                <hostName>localhost</hostName>
+                <port>80</port>
+                <pageName>FitnesseIntegrationTest.SuiteCoverage3</pageName>
+                <serverId>fitnesseTest</serverId>
+            </fitnesse>            
+            <fitnesse>
+                <hostName>localhost</hostName>
+                <port>80</port>
+                <pageName>FitnesseIntegrationTest.CoverageFive</pageName>
+                <type>suite</type>
+            </fitnesse>            
+            <fitnesse>
+                <hostName>localhost</hostName>
+                <port>80</port>
+                <pageName>FitnesseIntegrationTest.CoverageFive.WithoutConvention</pageName>
+                <type>test</type>
+            </fitnesse>            
+          </fitnesses>
+        </configuration>
+        <executions>
+          <execution>
+            <id>site</id>
+            <phase>pre-site</phase>
+            <goals>
+              <!-- for our integration tests we call the couple of goals, for a 'legal' project you should use 
+              only one of this goals, depending of the choosen mode (see online documentation). -->
+              <goal>run</goal>
+              <goal>remotecall</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- Necessary for compilling the Fixtures -->
+    <dependency>
+      <groupId>org.fitnesse</groupId>
+      <artifactId>fitnesse</artifactId>
+      <version>20050731</version>
+    </dependency>
+  </dependencies>
+</project>
