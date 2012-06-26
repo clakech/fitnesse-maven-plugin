@@ -38,6 +38,9 @@ public class Fitnesse
     /** Prefix for indicating that a page is a FitNesse <code>Test</code>. */
     static final String PAGE_TYPE_TEST = "test";
 
+    /** Prefix for indicating that... just execute the remote url */
+    static final String PAGE_TYPE_FREE = "free";
+
     /**
      * Constructor with all server details.
      * 
@@ -175,10 +178,10 @@ public class Fitnesse
                     + this.toString() );
             }
         }
-        else if ( !PAGE_TYPE_SUITE.equals( type ) && !PAGE_TYPE_TEST.equals( type ) )
+        else if ( !PAGE_TYPE_SUITE.equals( type ) && !PAGE_TYPE_TEST.equals( type )  && !PAGE_TYPE_FREE.equals( type ) )
         {
             throw new MojoExecutionException( "Invalid type [" + type + "] for the server [" + this.toString()
-                + "], should be either [suite] or [test]." );
+                + "], should be either [suite] or [test] or [free]." );
         }
         else
         {

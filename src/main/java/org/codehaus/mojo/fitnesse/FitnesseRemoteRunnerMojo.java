@@ -33,7 +33,7 @@ import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.reporting.MavenReportException;
 
 /**
- * This goal uses the <code>fitnesse.runner.TestRunner</code> class for calling a remote FitNesse web page and
+ * This goal uses the <code>fitnesse.FitNesse</code> class for calling a remote FitNesse web page and
  * executes the <i>tests</i> or <i>suites</i> locally into a forked JVM. It's possible to define several pages and/or
  * servers.
  * 
@@ -112,8 +112,14 @@ public class FitnesseRemoteRunnerMojo
 
             tResultFile.createNewFile();
             ByteArrayOutputStream tOut = new ByteArrayOutputStream();
-            getRemoteResource( "http://" + tServer.getHostName() + ":" + tServer.getPort() + "/"
-                + tServer.getPageName() + "?" + tServer.getType(), tOut, tServer );
+            String serverType = tServer.getType();
+            if(Fitnesse.PAGE_TYPE_FREE.equals(serverType)){
+                getRemoteResource( "http://" + tServer.getHostName() + ":" + tServer.getPort() + "/"
+                        + tServer.getPageName(), tOut, tServer );
+            } else {
+                getRemoteResource( "http://" + tServer.getHostName() + ":" + tServer.getPort() + "/"
+                    + tServer.getPageName() + "?" + serverType, tOut, tServer );
+            }
 
             String tOutAsString = tOut.toString();
             FitnessePage tFitnessePage = new FitnessePage( tOutAsString );

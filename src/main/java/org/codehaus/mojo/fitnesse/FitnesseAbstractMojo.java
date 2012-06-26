@@ -52,7 +52,7 @@ public abstract class FitnesseAbstractMojo
      *         &lt;port&gt;: default is <i>80</i>;&lt;/port&gt;<BR/>
      *         &lt;serverId&gt;ServerId defined in your settings.xml, this allows to use credentials 
      * (basic athentification) for calling your FitNesse pages&lt;/serverId&gt;<BR/>
-     *         &lt;type&gt;Override the default type of the page (Suite or Test).;&lt;/type&gt;<BR/>
+     *         &lt;type&gt;Override the default type of the page (Suite or Test or Free).;&lt;/type&gt;<BR/>
      *         &lt;/fitnesse&gt;<BR/>
      *     ... <BR/>
      * &lt;/fitnesses&gt;:<BR/>

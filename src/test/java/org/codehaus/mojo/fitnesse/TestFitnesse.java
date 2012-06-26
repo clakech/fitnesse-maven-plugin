@@ -76,7 +76,7 @@ public class TestFitnesse
         catch ( MojoExecutionException e )
         {
             assertEquals(
-                          "Invalid type [invalid] for the server [Fitnesse address=http://localhost:80/aWikiSpace.SuiteMySuite], should be either [suite] or [test].",
+                          "Invalid type [invalid] for the server [Fitnesse address=http://localhost:80/aWikiSpace.SuiteMySuite], should be either [suite] or [test] or [free].",
                           e.getMessage() );
         }
     }

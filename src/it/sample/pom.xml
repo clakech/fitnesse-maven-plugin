@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.chtijug</groupId>
+    <artifactId>fitnesse</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+  <build>
+	<plugins>
+	    <plugin>
+        	<groupId>org.codehaus.mojo</groupId>
+        	<artifactId>fitnesse-maven-plugin</artifactId>
+        	<version>1.1-SNAPSHOT</version>
+        	<configuration>
+                	<failOnError>true</failOnError>
+                    <classPathProvider>fitnesse</classPathProvider>
+                    <fitnesseRunnerClass>fitnesse.FitNesse</fitnesseRunnerClass>
+                    <!-- Fitnesse servers list -->
+                    <fitnesses>
+                        <fitnesse>
+                            <hostName>localhost</hostName>
+                            <port>9090</port>
+                            <pageName>FrontPage?suite&amp;suiteFilter=Sample</pageName>
+                            <type>Free</type>
+                        </fitnesse>
+                        
+                    </fitnesses>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>site</id>
+                        <phase>test</phase>
+                        <goals>
+                            <!-- for our integration tests we call the couple of goals, for a 'legal' project you should use 
+                                only one of this goals, depending of the choosen mode (see online documentation). -->
+                            <!-- goal>run</goal-->
+                            <goal>remotecall</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>site2</id>
+                        <phase>pre-site</phase>
+                        <goals>
+                            <goal>remotecall</goal>
+                        </goals>
+                    </execution>
+                </executions>
+      	</plugin>      
+	  </plugins>
+	</build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>fitnesse-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>
